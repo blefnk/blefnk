@@ -21,6 +21,20 @@ _Follow me on my path in dev of awesome projects that are created by dreams._
 
 ![rand](https://rand-xyz.now.sh/api/hello)
 
+<hr>
+
+## My GitHub Projects
+
+🍃 Coming soon...
+
+<hr>
+
+### Hey, please check my bro YouTube channel! There's a lot of fun to listen to, as well as learning how to play it.
+
+[![MFPianoYT](https://raw.githubusercontent.com/blefnk/blefnk/main/assets/shot.png)](https://www.youtube.com/c/MFPiano/videos?view=0&sort=p&flow=grid)
+
+<hr>
+
 | [Instagram](instagram.com/blefnk)  | [Behance](behance.com/blefony) | [Twitter](twitter.com/blefnk) |
 | ------------- | ------------- | ------------- |
-| <img align='left' src='https://github.githubassets.com/images/mona-whisper.gif'/>  | <sub>😊 If you enjoyed any of my projects, please star them or follow me.  | Always remember to make inclusive design! |
+| <img align='center' src='https://github.githubassets.com/images/mona-whisper.gif'/> | Always remember to make inclusive design! | <sub>😊 If you enjoyed any of my projects, please star them and follow me. Thanks! |
