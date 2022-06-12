@@ -21,11 +21,9 @@ _Follow me on path in dev and design of awesome projects that are created by dre
 
 [![skyline](https://raw.githubusercontent.com/blefnk/blefnk/main/assets/110101.png)](https://skyline.github.com/blefnk/2022)
 
-![rand](https://rand-xyz.now.sh/api/hello)
-
 ## My Design Portfolio: [Behance](behance.com/blefony) / My GitHub Projects: 🍃 Coming soon...
 
-<hr>
+![rand](https://rand-xyz.now.sh/api/hello)
 
 ### Please check my bro YouTube channel! There's a lot of fun to listen to, as well as learning how to play.
 
