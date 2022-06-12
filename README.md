@@ -1,6 +1,6 @@
-### 👋 Hi, I'm Nazar / Cześć, jestem Nazarii / Привіт, я Назарій
+### 👋 Hi, I'm Nazar / 🇵🇱 Cześć, jestem Nazarii / 🇺🇦 Привіт, я Назарій
 
-_Follow me on my path in dev of awesome projects that are created by dreams._
+_Follow me on path in dev and design of awesome projects that are created by dreams._
 
 [![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
 
@@ -23,9 +23,7 @@ _Follow me on my path in dev of awesome projects that are created by dreams._
 
 ![rand](https://rand-xyz.now.sh/api/hello)
 
-## My GitHub Projects
-
-🍃 Coming soon...
+## My Design Portfolio: [Behance](behance.com/blefony) / My GitHub Projects: 🍃 Coming soon...
 
 <hr>
 
