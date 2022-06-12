@@ -19,11 +19,9 @@ _Follow me on my path in dev of awesome projects that are created by dreams._
   </tr>
 </table>
 
-![rand](https://rand-xyz.now.sh/api/hello)
-
 [![skyline](https://raw.githubusercontent.com/blefnk/blefnk/main/assets/110101.png)](https://skyline.github.com/blefnk/2022)
 
-<hr>
+![rand](https://rand-xyz.now.sh/api/hello)
 
 ## My GitHub Projects
 
@@ -31,7 +29,7 @@ _Follow me on my path in dev of awesome projects that are created by dreams._
 
 <hr>
 
-### Hey, please check my bro YouTube channel! There's a lot of fun to listen to, as well as learning how to play it.
+### Please check my bro YouTube channel! There's a lot of fun to listen to, as well as learning how to play.
 
 [![MFPianoYT](https://raw.githubusercontent.com/blefnk/blefnk/main/assets/shot.png)](https://www.youtube.com/c/MFPiano/videos?view=0&sort=p&flow=grid)
 
