@@ -21,11 +21,11 @@ _Follow me on path in dev and design of awesome projects that are created by dre
 
 [![skyline](https://raw.githubusercontent.com/blefnk/blefnk/main/assets/110101.png)](https://skyline.github.com/blefnk/2022)
 
-## My Design Portfolio: [Behance](behance.com/blefony) / My GitHub Projects: 🍃 Coming soon...
+## My Design Portfolio: [Behance](behance.com/blefony) / My Github Projects (more soon): 🍃 [Github Readme](github.com/blefnk/blefnk), [Python Things](github.com/blefnk/python)
 
 ![rand](https://rand-xyz.now.sh/api/hello)
 
-### Please check my bro YouTube channel! There's a lot of fun to listen to, as well as learning how to play.
+### Please check this YouTube channel! There's a lot of fun to listen to, as well as learning how to play.
 
 [![MFPianoYT](https://raw.githubusercontent.com/blefnk/blefnk/main/assets/shot.png)](https://www.youtube.com/c/MFPiano/videos?view=0&sort=p&flow=grid)
 
@@ -33,4 +33,4 @@ _Follow me on path in dev and design of awesome projects that are created by dre
 
 | [Instagram](instagram.com/blefnk)  | [Behance](behance.com/blefony) | [Twitter](twitter.com/blefnk) |
 | ------------- | ------------- | ------------- |
-| <img align='center' src='https://github.githubassets.com/images/mona-whisper.gif'/> | Always remember to make inclusive design! | <sub>😊 If you enjoyed any of my projects, please star them and follow me. Thanks! |
+| <img align='center' src='https://github.githubassets.com/images/mona-whisper.gif'/> | Always remember to make inclusive design! | <sub>😊 If you enjoyed any of my projects, please star them and follow me. Thank you! |
