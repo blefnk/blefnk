@@ -33,4 +33,4 @@ _Follow me on path in dev and design of awesome projects that are created by dre
 
 | [Instagram](https://instagram.com/blefnk)  | [Behance](https://behance.com/blefony) | [Twitter](https://twitter.com/blefnk) |
 | ------------- | ------------- | ------------- |
-| <img align='center' src='https://github.githubassets.com/images/mona-whisper.gif'/> | Always remember make inclusive design! | <sub>If you enjoyed any of my projects, please star it and follow me. Thanks! |
+| <img align='center' src='https://github.githubassets.com/images/mona-whisper.gif'/> | Always remember make inclusive design! | <sub>If you enjoyed any of my projects, please star them and follow me. Thank you! |
