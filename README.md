@@ -1,4 +1,4 @@
-### 👋 Hi, I'm Nazar / 🇵🇱 Cześć, jestem Nazarii / 🇺🇦 Привіт, я Назарій
+### 👋 Hi, I'm Nazar / 🇺🇦 Привіт, я Назарій / 🇵🇱 Cześć, jestem Nazarii
 
 _Follow me on path in dev and design of awesome projects that are created by dreams._
 
@@ -21,7 +21,7 @@ _Follow me on path in dev and design of awesome projects that are created by dre
 
 [![skyline](https://raw.githubusercontent.com/blefnk/blefnk/main/assets/110101.png)](https://skyline.github.com/blefnk/2022)
 
-## Design Portfolio: [Behance](https://behance.com/blefony) / Code Projects: 🍃 [Github Readme](https://github.com/blefnk/blefnk), [Python Things](https://github.com/blefnk/python)
+## 🍃 My Code Projects: [Public Github Repositories](https://github.com/stars/blefnk/lists/personal-projects) / ⭕ Check Design Portfolio: [Behance](https://behance.com/blefony)
 
 ![rand](https://rand-xyz.now.sh/api/hello)
 
