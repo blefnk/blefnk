@@ -4,7 +4,7 @@ _Follow me on path in dev and design of awesome projects that are created by dre
 
 [![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
 
-## 🍃 My Code Projects: [Public Github Repositories](https://github.com/blefnk?tab=repositories) / ⭕ Check Design Portfolio: [Behance](https://behance.com/blefony)
+## 🍃 My Code Projects: [Public Github Repositories](https://github.com/blefnk?tab=repositories) / ⭕ Check Design Portfolio: [Behance](https://www.behance.net/blefony)
 
 <table>
   <tr>
