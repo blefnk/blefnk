@@ -21,7 +21,7 @@ _Follow me on path in dev and design of awesome projects that are created by dre
 
 [![skyline](https://raw.githubusercontent.com/blefnk/blefnk/main/assets/110101.png)](https://skyline.github.com/blefnk/2022)
 
-## 🍃 My Code Projects: [Public Github Repositories](https://github.com/stars/blefnk/lists/personal-projects) / ⭕ Check Design Portfolio: [Behance](https://behance.com/blefony)
+## 🍃 My Code Projects: [Public Github Repositories](https://github.com/blefnk?tab=repositories) / ⭕ Check Design Portfolio: [Behance](https://behance.com/blefony)
 
 ![rand](https://rand-xyz.now.sh/api/hello)
 
