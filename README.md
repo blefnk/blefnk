@@ -15,7 +15,7 @@ _Follow me on path in dev and design of awesome projects that are created by dre
   </tr>
   <tr>
     <td>💬 Ask me anything about inclusive design.</td>
-    <td>⚡ Fun fact: Laziness creates cool things.</td>
+    <td>⚡ Fun fact: Laziness creates awesome things.</td>
     <td>📫 You can reach me with: blefnk@gmail.com</td>
     <td>⭐ Please click the stars on my projects if you like.</td>
   </tr>
