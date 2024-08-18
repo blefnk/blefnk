@@ -2,6 +2,9 @@ import destr from "destr";
 import fs from "fs-extra";
 import path from "pathe";
 
+// ▶️ pnpm tsx addons/scripts/mdxBuilder.ts
+// ▶️ pnpm tsx addons/scripts/mdxBuilder.ts --generate-structure
+
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
@@ -64,6 +67,11 @@ async function processDirectory(
     if (stats.isDirectory()) {
       await processDirectory(fullPath, outputDirectory_, localeKey);
     } else if (stats.isFile() && path.extname(file) === ".json") {
+      // Skip processing sitemap.json
+      if (file === "sitemap.json") {
+        continue;
+      }
+
       const relativePath = path.relative(messagesDirectory, fullPath);
       const outputFilePath = path
         .join(
@@ -85,10 +93,15 @@ async function generateStructureFromConfig() {
   const configPath = path.resolve("astro.config.mjs");
   const sitemapPath = path.resolve(messagesDirectory, "sitemap.json");
 
+  console.log(
+    "Updating content folder structure based on astro.config.mjs and sitemap.json...",
+  );
+
   if (
     !(await fs.pathExists(configPath)) ||
     !(await fs.pathExists(sitemapPath))
   ) {
+    console.warn(`Reading ${configPath} and ${sitemapPath}`);
     console.error("astro.config.mjs or sitemap.json not found.");
     process.exit(1);
   }
