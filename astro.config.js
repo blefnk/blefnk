@@ -29,6 +29,10 @@ export default defineConfig({
           label: "About",
           autogenerate: { directory: "about" },
         },
+        {
+          label: "Skills",
+          autogenerate: { directory: "skills" },
+        },
       ],
     }),
   ],
