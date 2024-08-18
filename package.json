@@ -20,6 +20,7 @@
     "dev": "astro dev",
     "format:biome": "biome format --write .",
     "format": "redrun format:biome",
+    "i18n": "tsx addons/scripts/mdxBuilder.ts",
     "knip": "knip",
     "latest": "pnpm update --latest",
     "lint:biome": "biome lint --write .",

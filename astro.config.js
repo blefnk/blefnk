@@ -26,8 +26,8 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "Blefnk",
-          autogenerate: { directory: "blefnk" },
+          label: "About",
+          autogenerate: { directory: "about" },
         },
       ],
     }),

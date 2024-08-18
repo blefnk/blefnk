@@ -67,6 +67,9 @@
     "ignore": [".astro", "dist", ".venv", "addons/.output", "node_modules"],
     "rules": {
       "recommended": true,
+      "suspicious": {
+        "noExplicitAny": "off"
+      },
       "style": {
         "noInferrableTypes": "off"
       }

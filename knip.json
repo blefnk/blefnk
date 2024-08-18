@@ -1,7 +1,7 @@
 {
   "$schema": "https://unpkg.com/knip@5/schema.json",
   "entry": [
-    "astro.config.js",
+    "astro.config.{js,ts,mjs,cjs}",
     "src/content/config.ts",
     "src/pages/**/*.{astro,mdx,js,ts}",
     "src/content/**/*.mdx",
