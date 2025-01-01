@@ -1,31 +1,33 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
-  "css": {
-    "formatter": {
-      "enabled": false,
-      "indentStyle": "space",
-      "indentWidth": 2,
-      "lineEnding": "lf",
-      "lineWidth": 80,
-      "quoteStyle": "double"
-    },
-    "linter": {
-      "enabled": true
-    },
-    "parser": {
-      "allowWrongLineComments": false,
-      "cssModules": true
-    }
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": false
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "ignore": []
   },
   "formatter": {
-    "attributePosition": "auto",
     "enabled": true,
-    "formatWithErrors": false,
-    "ignore": [".astro", "dist", ".venv", "addons/.output", "node_modules"],
+    "ignore": [".git/", "node_modules/", ".astro/", "dist/"],
     "indentStyle": "space",
+    "attributePosition": "auto",
+    "formatWithErrors": false,
     "indentWidth": 2,
     "lineEnding": "lf",
     "lineWidth": 80
+  },
+  "organizeImports": {
+    "enabled": false
+  },
+  "linter": {
+    "enabled": true,
+    "ignore": [".git/", "node_modules/", ".astro/", "dist/"],
+    "rules": {
+      "recommended": true
+    }
   },
   "javascript": {
     "formatter": {
@@ -58,24 +60,8 @@
       "enabled": true
     },
     "parser": {
-      "allowComments": false,
+      "allowComments": true,
       "allowTrailingCommas": false
     }
-  },
-  "linter": {
-    "enabled": true,
-    "ignore": [".astro", "dist", ".venv", "addons/.output", "node_modules"],
-    "rules": {
-      "recommended": true,
-      "suspicious": {
-        "noExplicitAny": "off"
-      },
-      "style": {
-        "noInferrableTypes": "off"
-      }
-    }
-  },
-  "organizeImports": {
-    "enabled": false
   }
 }

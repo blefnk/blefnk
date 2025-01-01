@@ -1,5 +1,6 @@
-import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import tailwind from "@astrojs/tailwind";
+import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
@@ -7,6 +8,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Nazar Kornienko blefnk",
+      customCss: ["./src/styles/globals.css"],
       defaultLocale: "root",
       locales: {
         root: {
@@ -22,9 +24,14 @@ export default defineConfig({
       },
       social: {
         github: "https://github.com/blefnk",
-        discord: "https://discord.gg/C4Z46fHKQ8",
+        twitter: "https://x.com/blefnk",
+        discord: "https://discord.gg/Pb8uKbwpsJ",
       },
       sidebar: [
+        {
+          label: "Blog",
+          autogenerate: { directory: "blog" },
+        },
         {
           label: "About",
           autogenerate: { directory: "about" },
@@ -34,6 +41,9 @@ export default defineConfig({
           autogenerate: { directory: "skills" },
         },
       ],
+    }),
+    tailwind({
+      applyBaseStyles: false,
     }),
   ],
 });
