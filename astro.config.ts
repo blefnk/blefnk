@@ -15,9 +15,6 @@ export default defineConfig({
           label: "English",
           lang: "en",
         },
-        pl: {
-          label: "Polish (Polski)",
-        },
         uk: {
           label: "Ukrainian (Українська)",
         },

@@ -1,5 +1,5 @@
 ---
-title: 02. The House
+title: 03. The House
 description: Build your brand new thing
 ---
 
