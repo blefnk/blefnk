@@ -1,46 +1,34 @@
 import starlight from "@astrojs/starlight";
-import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://blefnk.reliverse.org",
-  integrations: [
-    starlight({
-      title: "Nazar Kornienko blefnk",
-      customCss: ["./src/styles/globals.css"],
-      defaultLocale: "root",
-      locales: {
-        root: {
-          label: "English",
-          lang: "en",
-        },
-        uk: {
-          label: "Ukrainian (Українська)",
-        },
-      },
-      social: {
-        github: "https://github.com/blefnk",
-        twitter: "https://x.com/blefnk",
-        discord: "https://discord.gg/Pb8uKbwpsJ",
-      },
-      sidebar: [
-        {
-          label: "Blog",
-          autogenerate: { directory: "blog" },
-        },
-        {
-          label: "About",
-          autogenerate: { directory: "about" },
-        },
-        {
-          label: "Skills",
-          autogenerate: { directory: "skills" },
-        },
-      ],
-    }),
-    tailwind({
-      applyBaseStyles: false,
-    }),
-  ],
+	site: "https://blefnk.reliverse.org",
+	integrations: [
+		starlight({
+			title: "@blefnk Nazar Kornienko",
+			social: {
+				github: "https://github.com/blefnk",
+				discord: "https://discord.gg/Pb8uKbwpsJ",
+				twitter: "https://x.com/blefnk",
+			},
+			sidebar: [
+				{
+					label: "👋 About",
+					collapsed: true,
+					autogenerate: { directory: "about", collapsed: true },
+				},
+				{
+					label: "📃 Blog",
+					collapsed: true,
+					autogenerate: { directory: "blog", collapsed: true },
+				},
+				{
+					label: "✂️ Skills",
+					collapsed: false,
+					autogenerate: { directory: "skills", collapsed: true },
+				},
+			],
+		}),
+	],
 });

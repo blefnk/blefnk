@@ -1,7 +1,0 @@
-{
-  "version": "0.2",
-  "language": "en,uk",
-  "import": ["@cspell/dict-uk-ua/cspell-ext.json"],
-  "ignorePaths": ["**/*.lock", "**/*.txt"],
-  "words": ["Amitohume", "Blefonix"]
-}
