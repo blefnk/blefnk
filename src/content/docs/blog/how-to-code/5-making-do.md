@@ -1,6 +1,6 @@
 ---
-title: 05. Making Do With What You Have
-description: It’s not a palace or an electric carport, but it’s yours.
+title: "5. Making Do With What You Have"
+description: "It’s not a palace or an electric carport, but it’s yours."
 ---
 
 You’d love to hightail it to Blefonix State in person, but it’s a long walk, and you really do need a functioning car. Plus, you’re missing one simple luxury: a roof. You can’t even sleep in your car because it’s got no top—and you have zero clue how to fix it.

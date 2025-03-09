@@ -1,6 +1,6 @@
 ---
-title: 06. The World Behind the Scenes
-description: If you ignore the fundamentals, you’ll never fully grasp how your site actually stands.
+title: "6. The World Behind the Scenes"
+description: "If you ignore the fundamentals, you’ll never fully grasp how your site actually stands."
 ---
 
 Appearances can be deceiving. The HTML, CSS, and JavaScript you see in the browser’s “Inspect” tool might be **compiled** or **minified**—optimized to load faster, but hard to read. It won’t always look like the original developer’s neat, commented code.

@@ -1,13 +1,9 @@
 ---
-title: Posts
-description: Blog posts by Nazar Kornienko
+title: "How to code"
+description: "Learn how to code, finally"
 ---
 
-## My products
-
-- [Reliverse CLI](my-products/reliverse-cli)
-
-## How to code
+## Posts
 
 - [1. Introduction](how-to-code/1-introduction)
 - [2. The Car](how-to-code/2-the-car)

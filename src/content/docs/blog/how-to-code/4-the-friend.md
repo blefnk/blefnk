@@ -1,6 +1,6 @@
 ---
-title: 04. The Friend
-description: Hello, friend. Hello, friend?
+title: "4. The Friend"
+description: "Hello, friend. Hello, friend?"
 ---
 
 You’re trudging through the overgrown forest—branches snapping underfoot—when suddenly, in the distance, a figure waves you over. Your heart skips a beat. _Who in their right mind hangs out near a crumbling building like this?_ As you draw closer, you see they’re staring you down with a mix of curiosity and urgency.

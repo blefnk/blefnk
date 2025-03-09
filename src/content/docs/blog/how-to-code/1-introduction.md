@@ -1,6 +1,6 @@
 ---
-title: 01. Introduction
-description: Learn how to code, finally
+title: "1. Introduction"
+description: "Learn how to code, finally"
 ---
 
 ## Learn How to Code, Finally

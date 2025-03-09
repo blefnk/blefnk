@@ -1,6 +1,6 @@
 ---
-title: 03. The House
-description: Build your brand new thing
+title: "3. The House"
+description: "Build your brand new thing"
 ---
 
 ## Build Your Brand New Thing

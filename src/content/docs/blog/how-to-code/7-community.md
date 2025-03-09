@@ -1,6 +1,6 @@
 ---
-title: AI, Freelancers, Agencies—Oh My!
-description: If you ignore the fundamentals, you’ll never fully grasp how your site actually stands.
+title: "7. AI, Freelancers, Agencies—Oh My!"
+description: "If you ignore the fundamentals, you’ll never fully grasp how your site actually stands."
 ---
 
 So, you’ve got your little hut, a car that kinda-sorta works, and big dreams dancing around in your head. But to build something truly epic, you might need extra hands. Enter **Blefonix State**—the buzzing online community that can help you level up, no matter where you’re at in your coding journey. Within Blefonix State, three main paths await:

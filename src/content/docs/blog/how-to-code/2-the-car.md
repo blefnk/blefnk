@@ -1,6 +1,6 @@
 ---
-title: 02. The Car
-description: What You’ll Learn
+title: "2. The Car"
+description: "What You’ll Learn"
 ---
 
 ## A Changing Landscape
