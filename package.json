@@ -1,0 +1,29 @@
+{
+	"name": "relidocs",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"lint": "eslint --cache --fix .",
+		"format": "biome check --write .",
+		"check": "bun lint && bun format",
+		"latest": "bun update --latest"
+	},
+	"dependencies": {
+		"@astrojs/starlight": "^0.32.2",
+		"astro": "^5.5.2",
+		"sharp": "^0.33.5"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@eslint/js": "^9.22.0",
+		"@eslint/markdown": "^6.3.0",
+		"eslint": "^9.22.0",
+		"typescript": "^5.8.2",
+		"typescript-eslint": "^8.26.1"
+	}
+}
