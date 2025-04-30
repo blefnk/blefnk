@@ -1,0 +1,35 @@
+{
+	"$schema": "https://unpkg.com/knip@5/schema.json",
+	"project": ["**/*.{ts,js}"],
+	"entry": [
+		"*.{config,cfg}.{ts,js}",
+		"src/main.ts",
+		"src/**/*-main.ts",
+		"src/cli/args/**/index.ts"
+	],
+	"ignore": [
+		"node_modules",
+		"dist-jsr",
+		"dist-npm",
+		"dist-libs",
+		"src/lib/utils.ts",
+		"scripts/ts-to-md/constants.ts",
+		"src/lib/constants.ts",
+		"src/lib/hooks/use-anime.ts",
+		"src/ui/components/react-youtube/youtube-ids.ts"
+	],
+	"ignoreExportsUsedInFile": true,
+	"ignoreDependencies": [
+		"@radix-ui/react-tabs",
+		"@radix-ui/react-slot",
+		"class-variance-authority",
+		"tw-animate-css",
+		"@dicebear/collection",
+		"@dicebear/core",
+		"@radix-ui/react-accordion",
+		"@vercel/kv",
+		"react-lite-youtube-embed",
+		"tailwindcss-animate",
+		"@radix-ui/react-dropdown-menu"
+	]
+}

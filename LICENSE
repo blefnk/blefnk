@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Nazar Kornienko
+Copyright (c) 2025 Nazar Kornienko (blefnk), Reliverse
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+NOTICES
+
+The MIT License applies only to the source code and software implementation of
+this project. Unless otherwise specified, the project's content (including
+text, images, and other media) is licensed under the CC BY-NC-SA 4.0
+(Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International).
+See the LICENSE-CC file or relevant attributions for details.

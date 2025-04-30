@@ -12,39 +12,14 @@
 	"eslint.ignoreUntitled": true,
 	"eslint.rules.customizations": [
 		{
-			"rule": "perfectionist/sort-imports",
+			"rule": "perfectionist/*",
 			"severity": "off"
 		}
 	],
+	"mdx.server.enable": true,
 	"markdownlint.config": {
 		"MD041": false,
 		"MD013": false,
-		"MD033": {
-			"allowed_elements": [
-				"a",
-				"br",
-				"Card",
-				"CardGrid",
-				"details",
-				"div",
-				"h1",
-				"img",
-				"p",
-				"picture",
-				"source",
-				"span",
-				"sub",
-				"summary",
-				"sup",
-				"table",
-				"tbody",
-				"td",
-				"tfoot",
-				"th",
-				"thead",
-				"tr",
-				"b"
-			]
-		}
+		"MD033": false
 	}
 }

@@ -7,31 +7,25 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": [
-			".astro",
-			".next",
-			"node_modules",
-			"dist",
-			"public",
-			"build",
-			"dist-jsr",
-			"dist-npm",
-			"tests-runtime"
-		]
+		"ignore": ["node_modules", ".next", ".source"]
 	},
 	"formatter": {
 		"enabled": true,
-		"indentStyle": "tab",
-		"indentWidth": 2,
-		"lineWidth": 80
+		"indentStyle": "tab"
 	},
 	"organizeImports": {
-		"enabled": true
+		"enabled": false
 	},
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true
+			"recommended": true,
+			"suspicious": {
+				"noExplicitAny": "off"
+			},
+			"correctness": {
+				"useJsxKeyInIterable": "off"
+			}
 		}
 	},
 	"javascript": {
