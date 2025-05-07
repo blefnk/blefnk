@@ -27,7 +27,7 @@ export const Outro: FC = () => {
 				</p>
 				<Link
 					className="brutal-button inline-flex items-center gap-2"
-					href="https://music.youtube.com/playlist?list=PLmA6aoeghea5hxj9aUR30ULe4O06b011O&si=B9QJjW4VdUGPETMX"
+					href="https://dub.sh/blefnk-fm"
 					rel="noopener noreferrer"
 					target="_blank"
 				>

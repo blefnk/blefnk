@@ -151,7 +151,7 @@ export const ManifestoOssVision: FC = () => (
 			you'll just break their fingers with bureaucracy.
 		</p>
 		<p>
-			and the worst part? llms.
+			and the most funny part? llms.
 			<br />
 			llms won't even blink at your agpl.
 			<br />

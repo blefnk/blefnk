@@ -1,8 +1,7 @@
 import type { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
 
+import Logo from "🐈/img/favicon-32x32.png";
 import Image from "next/image";
-
-import Logo from "../img/favicon-32x32.png";
 
 /**
  * Shared layout configurations
