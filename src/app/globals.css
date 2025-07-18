@@ -588,7 +588,9 @@ input[type="search"] {
 	background: hsl(var(--card));
 	border: 2px solid hsl(var(--border));
 	box-shadow: 4px 4px 0 0 hsl(var(--border));
-	transition: transform .2s ease, box-shadow .2s ease;
+	transition:
+		transform 0.2s ease,
+		box-shadow 0.2s ease;
 }
 
 .brutal-card:hover,

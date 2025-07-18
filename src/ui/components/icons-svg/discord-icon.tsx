@@ -30,6 +30,7 @@ export function DiscordIcon({
 	title = "Discord logo",
 }: IconReseui) {
 	return (
+		// biome-ignore lint/a11y/useAriaPropsSupportedByRole: <>
 		<div aria-label={title} className={className}>
 			<CreateDiscordIcon
 				borderRadius={borderRadius}

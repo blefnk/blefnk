@@ -1,4 +1,4 @@
-🧬 _full list of my projects_: [@reliverse](https://reliverse.org/repos/reliverse), [@blefnk](https://reliverse.org/repos/blefnk)
+🧬 _full list of my projects_: [@reliverse](https://github.com/reliverse), [@blefnk](https://github.com/blefnk)
 
 🦄 _thank you to the amazing people who [sponsor](https://github.com/sponsors/blefnk) my work_:
 

@@ -20,17 +20,13 @@ export const AboutTab: FC = () => (
 				just focused software that quietly goes:
 			</p>
 			<blockquote className="my-4 border-l-4 border-foreground pl-4 italic">
-				hey. i did the thing. you&apos;re welcome.
+				hey. i did the thing. you're welcome.
 			</blockquote>
-			<p>
-				i&apos;m not chasing clout, hype, or a yc alum badge.
-				<br />
-				i&apos;m chasing that moment someone mutters:
-			</p>
+			<p>i'm chasing that moment someone mutters:</p>
 			<blockquote className="my-4 border-l-4 border-foreground pl-4 italic">
-				this saved me 3 hours…
+				this saved me 3 hours...
 				<br />
-				and didn&apos;t make me want to die.
+				and didn't make me want to die.
 			</blockquote>
 		</div>
 		<h3 className="mt-8 mb-4 text-xl font-bold">what i do</h3>
@@ -89,13 +85,13 @@ export const AboutTab: FC = () => (
 					>
 						<del>x</del> twitter
 					</Link>
-					, essays <Link href="/blog">on my blog</Link> , and{" "}
+					, essays <Link href="/blog">on my blog</Link>, and{" "}
 					<Link
-						href="https://media.reliverse.org"
+						href="https://docs.reliverse.org"
 						rel="noopener noreferrer"
 						target="_blank"
 					>
-						reliverse media site
+						relidocs
 					</Link>
 					, w/ emotions
 				</span>

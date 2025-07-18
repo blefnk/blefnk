@@ -179,6 +179,8 @@ just shipped the redesigned version of my personal site.
 do you like it? do you like it? yes or yes?
 <https://blefnk.reliverse.org>
 
+## 17. RELIVERSE AI: RELIVERSE.ORG (EARLY ACCESS)
+
 ## ... TO BE CONTINUED
 
 [follow me on ~~x~~ twitter](https://x.com/blefnk) to be the first to know about the new day's release. see you! 🤗

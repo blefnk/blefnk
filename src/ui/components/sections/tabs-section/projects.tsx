@@ -11,7 +11,7 @@ export const ProjectsTab: FC = () => (
 					<h3 className="font-bold">
 						<Link
 							className="underline"
-							href="https://reliverse.org/repos/reliverse"
+							href="https://github.com/reliverse"
 							rel="noopener noreferrer"
 							target="_blank"
 						>
@@ -24,7 +24,7 @@ export const ProjectsTab: FC = () => (
 					<h3 className="font-bold">
 						<Link
 							className="underline"
-							href="https://reliverse.org/repos/blefnk"
+							href="https://github.com/blefnk"
 							rel="noopener noreferrer"
 							target="_blank"
 						>

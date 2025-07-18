@@ -63,7 +63,6 @@ async function dateQueryExamples(projects: readonly Project[]) {
 		`Found ${oldOssProjects.length} OSS projects with old or no releases`,
 	);
 	console.log("First 5 projects (alphabetically):");
-	// biome-ignore lint/complexity/noForEach: <explanation>
 	oldOssProjects
 		.slice(0, 5)
 		.forEach((p: Project) => console.log(`- ${p.id}: ${p.title}`));

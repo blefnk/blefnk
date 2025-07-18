@@ -1,5 +1,5 @@
 ---
-title: "CLIs: The problem. The solution. The Reliverse CLI"
+title: "CLIs: The problem. The solution. The Rse CLI & Rempts"
 description: A detailed guide to the Reliverse CLI, including the problem it solves, the solution it provides, and what it can do.
 ---
 

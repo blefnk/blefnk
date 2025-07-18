@@ -29,9 +29,9 @@ import {
 } from "scripts/ts-to-md/utils";
 
 type ProjectPageProps = {
-	params: {
+	params: Promise<{
 		id: ProjectId;
-	};
+	}>;
 };
 
 export async function generateMetadata({
@@ -250,7 +250,10 @@ function ProjectHeader({
 function ProjectLinks({
 	project,
 	repoUrl,
-}: { project: Project; repoUrl: string }) {
+}: {
+	project: Project;
+	repoUrl: string;
+}) {
 	return (
 		<>
 			{/* GitHub/Repo Link */}
@@ -354,7 +357,9 @@ function ProjectScreenshots({ project }: { project: Project }) {
 
 function ProjectUsers({
 	users,
-}: { users: ReadonlyArray<{ link: string; name: string }> }) {
+}: {
+	users: ReadonlyArray<{ link: string; name: string }>;
+}) {
 	if (!users || users.length === 0) return null;
 
 	return (
@@ -420,7 +425,10 @@ function RelatedProjects({ projects }: { projects: Project[] }) {
 function SectionHeading({
 	children,
 	id,
-}: { children: React.ReactNode; id: string }) {
+}: {
+	children: React.ReactNode;
+	id: string;
+}) {
 	return (
 		<h2
 			className="text-2xl font-bold mb-4 border-b border-foreground pb-2"

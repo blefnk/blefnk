@@ -78,7 +78,7 @@ Now, about those utilities you can't (or don't want to) set up yourself. For wat
 
 ### Fend Off Bears and the Elements: Security Basics
 
-Houses in the forest can get a bit…wild. Similarly, websites attract curious onlookers, not all of whom have the best intentions. At minimum, lock your doors (HTTPS), and be mindful of what you store in your code (API keys, anyone?). If you sense trouble, it's time for a bigger fence or maybe a bear-deterrent system—like a strong password policy, input validation, or third-party security add-ons. Don't worry if you're not a security guru yet—just know it's a must-have, like that front door deadbolt.
+Houses in the forest can get a bit...wild. Similarly, websites attract curious onlookers, not all of whom have the best intentions. At minimum, lock your doors (HTTPS), and be mindful of what you store in your code (API keys, anyone?). If you sense trouble, it's time for a bigger fence or maybe a bear-deterrent system—like a strong password policy, input validation, or third-party security add-ons. Don't worry if you're not a security guru yet—just know it's a must-have, like that front door deadbolt.
 
 ### Making It a Home: Personal Touches
 

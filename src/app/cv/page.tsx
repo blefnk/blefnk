@@ -184,7 +184,7 @@ export default function CV() {
 									<h3 className="text-xl font-bold">
 										<Link
 											className="underline"
-											href="https://reliverse.org/repos/blefnk/relivator"
+											href="https://github.com/blefnk/relivator"
 										>
 											Relivator
 										</Link>
@@ -203,7 +203,7 @@ export default function CV() {
 									<h3 className="text-xl font-bold">
 										<Link
 											className="underline"
-											href="https://reliverse.org/repos/blefnk/versator"
+											href="https://github.com/blefnk/versator"
 										>
 											Versator
 										</Link>
@@ -222,7 +222,7 @@ export default function CV() {
 									<h3 className="text-xl font-bold">
 										<Link
 											className="underline"
-											href="https://reliverse.org/repos/reliverse/rse"
+											href="https://github.com/reliverse/rse"
 										>
 											Rse
 										</Link>
@@ -254,7 +254,7 @@ export default function CV() {
 									<h3 className="font-bold">
 										<Link
 											className="underline"
-											href="https://reliverse.org/repos/reliverse"
+											href="https://github.com/reliverse"
 											rel="noopener noreferrer"
 											target="_blank"
 										>
@@ -269,7 +269,7 @@ export default function CV() {
 									<h3 className="font-bold">
 										<Link
 											className="underline"
-											href="https://reliverse.org/repos/blefnk"
+											href="https://github.com/blefnk"
 											rel="noopener noreferrer"
 											target="_blank"
 										>

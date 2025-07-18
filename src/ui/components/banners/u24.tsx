@@ -145,6 +145,7 @@ const United24Banner: React.FC<United24BannerProps> = ({
 		: "text-blue-800 dark:text-white";
 
 	return (
+		// biome-ignore lint/a11y/useSemanticElements: <>
 		<div
 			aria-label="Support Ukraine banner"
 			className={bannerClasses}

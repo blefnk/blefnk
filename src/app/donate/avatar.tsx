@@ -33,7 +33,6 @@ export function AvatarImage({ avatarUrl, name, sponsorLevel }: AvatarProps) {
 			) : (
 				<div
 					className="aspect-square rounded-full object-cover"
-					// biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
 					dangerouslySetInnerHTML={{ __html: avatarSvg }}
 					style={{ height: avatarSize, width: avatarSize }}
 				/>

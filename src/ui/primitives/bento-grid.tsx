@@ -121,7 +121,6 @@ function BentoGrid({ items = itemsSample }: BentoGridProps) {
 								{item.tags?.map((tag, i) => (
 									<span
 										className="px-2 py-1 rounded-md bg-black/5 dark:bg-white/10 backdrop-blur-sm transition-all duration-200 hover:bg-black/10 dark:hover:bg-white/20"
-										// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 										key={i}
 									>
 										#{tag}

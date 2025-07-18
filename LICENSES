@@ -1,7 +1,7 @@
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 (CC BY-NC-SA 4.0) License
 
-Copyright (c) 2025 Nazar Kornienko (blefnk), Reliverse
+Copyright (c) Nazar Kornienko (blefnk), Reliverse
 
 Full license text available at:
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
@@ -9,6 +9,10 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 ---
 
 NOTICES
+
+The MIT License applies only to the source code and software implementation of
+this project. Unless otherwise specified, the project's content (including
+text, images, and other media) is licensed under the CC BY-NC-SA 4.0.
 
 The CC BY-NC-SA 4.0 License applies to all original content of this
 project (including text, images, media, and other materials), unless
@@ -21,8 +25,8 @@ When sharing, adapting, or remixing the content, please:
 - Indicate if changes were made.
 
 Example attribution (following TASL recommendations):
-«"Blefnk's Blog" by Nazar Kornienko (blefnk), Reliverse,
+"Blefnk Blog" by Nazar Kornienko (blefnk), Reliverse,
 Original source: https://github.com/blefnk/blefnk,
 Licensed under CC BY-NC-SA 4.0,
 https://creativecommons.org/licenses/by-nc-sa/4.0
-(Adapted from the original; changes were made.)»
+(Adapted from the original; changes were made.)

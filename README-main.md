@@ -1,4 +1,4 @@
-# Blefnk's Blog
+# Blefnk Blog
 
 👉 [https://blefnk.reliverse.org](https://blefnk.reliverse.org)
 

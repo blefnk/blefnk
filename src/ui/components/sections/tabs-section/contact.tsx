@@ -7,8 +7,8 @@ import Link from "next/link";
 import { DiscordIcon } from "../../icons-svg/discord-icon";
 
 export const ContactSection: FC = () => (
-	<Card className="brutal-card p-6" title="let&apos;s connect">
-		<p className="mb-6">i&apos;m the dev you feel safe dm&apos;ing</p>
+	<Card className="brutal-card p-6" title="let's connect">
+		<p className="mb-6">i'm the dev you feel safe dm'ing</p>
 		<div className="grid grid-cols-1 gap-6 md:grid-cols-2">
 			<Link
 				className="brutal-card flex items-center gap-3 p-4 transition-colors hover:bg-zinc-900 dark:hover:bg-zinc-800"

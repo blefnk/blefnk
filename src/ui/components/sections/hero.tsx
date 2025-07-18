@@ -34,7 +34,7 @@ export const Hero: FC = () => {
 			<div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
 				<div className="hero-content" ref={contentRef}>
 					<h2 className="typewriter mb-4 text-2xl font-bold">
-						hey🌚. i&apos;m nazar kornienko.
+						hey🌚. i'm nazar kornienko.
 					</h2>
 					<div className="space-y-4 text-lg">
 						<p className="text-muted-foreground">
@@ -50,10 +50,10 @@ export const Hero: FC = () => {
 							<br />
 							better. louder. weirder.
 							<br />
-							until it&apos;s truly something.
+							until it's truly something.
 						</p>
 						<p>
-							my oss tools don&apos;t scream for attention.
+							my oss tools don't scream for attention.
 							<br />
 							they just <em>show up</em>, do the job,
 							<br />

@@ -6,7 +6,6 @@ export default function NotFound() {
 	return (
 		<main className="min-h-screen bg-background text-foreground font-mono relative flex items-center justify-center">
 			<NoiseEffect />
-			{/* biome-ignore lint/style/useSelfClosingElements: <explanation> */}
 			<div className="scanlines"></div>
 
 			<div className="container mx-auto px-4 py-12 max-w-md text-center">

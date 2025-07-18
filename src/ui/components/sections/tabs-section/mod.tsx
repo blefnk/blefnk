@@ -10,7 +10,7 @@ import {
 	TabsContent,
 	TabsList,
 	TabsTrigger,
-} from "fumadocs-ui/components/ui/tabs";
+} from "🐈/ui/primitives/tabs";
 
 import { AboutTab } from "../about";
 import { ContactSection } from "./contact";

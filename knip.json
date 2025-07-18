@@ -2,10 +2,7 @@
 	"$schema": "https://unpkg.com/knip@5/schema.json",
 	"project": ["**/*.{ts,js}"],
 	"entry": [
-		"*.{config,cfg}.{ts,js}",
-		"src/main.ts",
-		"src/**/*-main.ts",
-		"src/cli/args/**/index.ts"
+		"*.{config,cfg}.{ts,js}"
 	],
 	"ignore": [
 		"node_modules",

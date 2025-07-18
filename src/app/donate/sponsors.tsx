@@ -133,7 +133,6 @@ export function Sponsors() {
 			<br />
 			<div className="space-y-4 text-sm">
 				{sponsors.map((t, index) => (
-					// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 					<Sponsor key={index} {...t} />
 				))}
 			</div>
@@ -187,7 +186,6 @@ function Sponsor({
 					{socialMedia && socialMedia.length > 0 && (
 						<span>
 							{socialMedia.map(({ id, platform, username }, index) => (
-								// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 								<span key={index}>
 									<Link
 										className={`

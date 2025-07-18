@@ -110,4 +110,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 Sure, it's just an alert box, but it's the first step toward your "smart home."
 
-It's not a palace or an electric carport, but it's _yours_. You built it with **HTML**, **CSS**, and a pinch of **JavaScript**—that's huge! Next step? Maybe add a second floor… or better yet, figure out how to strap a roof onto your car.
+It's not a palace or an electric carport, but it's _yours_. You built it with **HTML**, **CSS**, and a pinch of **JavaScript**—that's huge! Next step? Maybe add a second floor... or better yet, figure out how to strap a roof onto your car.

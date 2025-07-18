@@ -9,16 +9,16 @@ export const DonateTab: FC = () => (
 	<Card className="brutal-card p-6" title="donate">
 		<div className="space-y-4">
 			<p>
-				you&apos;re not funding a startup.
+				you're not funding a startup.
 				<br />
-				you&apos;re backing <em>indie infrastructure</em>.<br />
+				you're backing <em>indie infrastructure</em>.<br />
 				half-broken, duct-taped dreams
 				<br />
 				that somehow outlast the shiny stuff.
 			</p>
 			<h4 className="mt-6 mb-2 text-xl font-bold">why?</h4>
 			<p>
-				because i give a damn. because i&apos;m still a human.
+				because i give a damn. because i'm still a human.
 				<br />
 				and because everything good breaks eventually —<br />
 				unless someone keeps showing up to fix it 😉

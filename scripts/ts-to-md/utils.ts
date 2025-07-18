@@ -730,8 +730,7 @@ function parseFlexibleDateFormat(dateString: string): Date | null {
 			}
 			// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		} catch (_e) {
-			// biome-ignore lint/correctness/noUnnecessaryContinue: <explanation>
-			continue;
+			// do nothing
 		}
 	}
 
