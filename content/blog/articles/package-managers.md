@@ -123,7 +123,7 @@ but i wanted bun's speed with my flexibility.
 my control.
 my vision.
 
-so...
+so... `bun latest`...
 
 ## 2025: dler
 

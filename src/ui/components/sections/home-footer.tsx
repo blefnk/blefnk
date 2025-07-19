@@ -1,26 +1,26 @@
-"use client";
+// "use client";
 
 import type { FC } from "react";
 
-import { useAnime } from "🐈/lib/hooks/use-anime";
+// import { useAnime } from "🐈/lib/hooks/use-anime";
 import { Music } from "lucide-react";
 import Link from "next/link";
 
 export const Outro: FC = () => {
-	const outroRef = useAnime({
-		animation: {
-			delay: 1200,
-			duration: 800,
-			easing: "outExpo",
-			opacity: [0, 1],
-			translateY: [20, 0],
-		},
-		targets: ".outro-content",
-	});
+	// const outroRef = useAnime({
+	// 	animation: {
+	// 		delay: 1200,
+	// 		duration: 800,
+	// 		easing: "outExpo",
+	// 		opacity: [0, 1],
+	// 		translateY: [20, 0],
+	// 	},
+	// 	targets: ".outro-content",
+	// });
 
 	return (
 		<section className="mb-12">
-			<div className="outro-content brutal-card p-6" ref={outroRef}>
+			<div className="outro-content brutal-card p-6" /* ref={outroRef}*/>
 				<h3 className="mb-4 text-2xl font-bold">bye? hello.</h3>
 				<p className="mb-4">
 					ah, btw. if you want to be confused and impressed at the same time:
@@ -57,21 +57,21 @@ export const Outro: FC = () => {
 };
 
 export const HomeFooter: FC = () => {
-	const footerRef = useAnime({
-		animation: {
-			delay: 1400,
-			duration: 800,
-			easing: "outExpo",
-			opacity: [0, 1],
-			scale: [0.95, 1],
-		},
-		targets: ".footer-content",
-	});
+	// const footerRef = useAnime({
+	// 	animation: {
+	// 		delay: 1400,
+	// 		duration: 800,
+	// 		easing: "outExpo",
+	// 		opacity: [0, 1],
+	// 		scale: [0.95, 1],
+	// 	},
+	// 	targets: ".footer-content",
+	// });
 
 	return (
 		<footer
 			className="footer-content text-center text-sm text-muted-foreground"
-			ref={footerRef}
+			/* ref={footerRef} */
 		>
 			<p>
 				&copy; {new Date().getFullYear()} Nazar Kornienko. All rights reserved.

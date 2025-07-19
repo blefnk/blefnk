@@ -1,8 +1,8 @@
-"use client";
+// "use client";
 
 import type { FC } from "react";
 
-import { useAnime } from "🐈/lib/hooks/use-anime";
+// import { useAnime } from "🐈/lib/hooks/use-anime";
 import { cn } from "🐈/lib/utils";
 import { buttonVariants } from "🐈/ui/primitives/button";
 import {
@@ -26,34 +26,34 @@ const TABS = [
 ] as const;
 
 export const TabsSection: FC = () => {
-	const tabsListRef = useAnime({
-		animation: {
-			delay: 800,
-			duration: 800,
-			easing: "outExpo",
-			opacity: [0, 1],
-			translateY: [20, 0],
-		},
-		targets: ".tabs-list",
-	});
+	// const tabsListRef = useAnime({
+	// 	animation: {
+	// 		delay: 800,
+	// 		duration: 800,
+	// 		easing: "outExpo",
+	// 		opacity: [0, 1],
+	// 		translateY: [20, 0],
+	// 	},
+	// 	targets: ".tabs-list",
+	// });
 
-	const tabsContentRef = useAnime({
-		animation: {
-			delay: 1000,
-			duration: 800,
-			easing: "outExpo",
-			opacity: [0, 1],
-			translateY: [20, 0],
-		},
-		targets: ".tabs-content",
-	});
+	// const tabsContentRef = useAnime({
+	// 	animation: {
+	// 		delay: 1000,
+	// 		duration: 800,
+	// 		easing: "outExpo",
+	// 		opacity: [0, 1],
+	// 		translateY: [20, 0],
+	// 	},
+	// 	targets: ".tabs-content",
+	// });
 
 	return (
 		<Tabs className="mb-12" defaultValue="about">
 			{/* TABS LIST */}
 			<TabsList
 				className="tabs-list grid h-auto w-full grid-cols-4 gap-2 bg-transparent"
-				ref={tabsListRef}
+				/* ref={tabsListRef} */
 			>
 				{TABS.map(({ label, value }) => (
 					<TabsTrigger
@@ -72,7 +72,7 @@ export const TabsSection: FC = () => {
 			{/* ABOUT */}
 			<TabsContent
 				className="tabs-content mt-6"
-				ref={tabsContentRef}
+				/* ref={tabsContentRef} */
 				value="about"
 			>
 				<AboutTab />
@@ -82,7 +82,7 @@ export const TabsSection: FC = () => {
 			{/* PROJECTS */}
 			<TabsContent
 				className="tabs-content mt-6"
-				ref={tabsContentRef}
+				/* ref={tabsContentRef} */
 				value="projects"
 			>
 				<ProjectsTab />
@@ -91,7 +91,7 @@ export const TabsSection: FC = () => {
 			{/* DONATE */}
 			<TabsContent
 				className="tabs-content mt-6"
-				ref={tabsContentRef}
+				/* ref={tabsContentRef} */
 				value="donate"
 			>
 				<DonateTab />
@@ -100,7 +100,7 @@ export const TabsSection: FC = () => {
 			{/* MANIFESTO */}
 			<TabsContent
 				className="tabs-content mt-6"
-				ref={tabsContentRef}
+				/* ref={tabsContentRef} */
 				value="manifesto"
 			>
 				<ManifestoTab />

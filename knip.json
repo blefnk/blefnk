@@ -1,9 +1,7 @@
 {
 	"$schema": "https://unpkg.com/knip@5/schema.json",
 	"project": ["**/*.{ts,js}"],
-	"entry": [
-		"*.{config,cfg}.{ts,js}"
-	],
+	"entry": ["*.{config,cfg}.{ts,js}"],
 	"ignore": [
 		"node_modules",
 		"dist-jsr",
@@ -17,6 +15,7 @@
 	],
 	"ignoreExportsUsedInFile": true,
 	"ignoreDependencies": [
+		"animejs",
 		"@radix-ui/react-tabs",
 		"@radix-ui/react-slot",
 		"class-variance-authority",

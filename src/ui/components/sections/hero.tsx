@@ -1,38 +1,38 @@
-"use client";
+// "use client";
 
 import type { FC } from "react";
 
 import GlitchyNazar from "🐈/img/blefnk.png";
-import { useAnime } from "🐈/lib/hooks/use-anime";
+// import { useAnime } from "🐈/lib/hooks/use-anime";
 import Image from "next/image";
 
 export const Hero: FC = () => {
-	const contentRef = useAnime({
-		animation: {
-			delay: 400,
-			duration: 800,
-			easing: "outExpo",
-			opacity: [0, 1],
-			translateY: [20, 0],
-		},
-		targets: ".hero-content",
-	});
+	// const contentRef = useAnime({
+	// 	animation: {
+	// 		delay: 400,
+	// 		duration: 800,
+	// 		easing: "outExpo",
+	// 		opacity: [0, 1],
+	// 		translateY: [20, 0],
+	// 	},
+	// 	targets: ".hero-content",
+	// });
 
-	const imageRef = useAnime({
-		animation: {
-			delay: 600,
-			duration: 1000,
-			easing: "outElastic(1, 0.5)",
-			opacity: [0, 1],
-			scale: [0.9, 1],
-		},
-		targets: ".hero-image",
-	});
+	// const imageRef = useAnime({
+	// 	animation: {
+	// 		delay: 600,
+	// 		duration: 1000,
+	// 		easing: "outElastic(1, 0.5)",
+	// 		opacity: [0, 1],
+	// 		scale: [0.9, 1],
+	// 	},
+	// 	targets: ".hero-image",
+	// });
 
 	return (
 		<header className="mb-2">
 			<div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
-				<div className="hero-content" ref={contentRef}>
+				<div className="hero-content" /* ref={contentRef}*/>
 					<h2 className="typewriter mb-4 text-2xl font-bold">
 						hey🌚. i'm nazar kornienko.
 					</h2>
@@ -68,7 +68,7 @@ export const Hero: FC = () => {
 						</p>
 					</div>
 				</div>
-				<div className="hero-image vhs-effect" ref={imageRef}>
+				<div className="hero-image vhs-effect" /* ref={imageRef}*/>
 					<Image
 						alt="Glitchy portrait of Nazar Kornienko with the text 'i think you're pretty'"
 						className="brutal-border h-auto w-full"

@@ -2,10 +2,10 @@
 
 import type React from "react";
 
-import { animate } from "animejs";
+// import { animate } from "animejs";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { /* useEffect, */ useRef, useState } from "react";
 
 interface United24BannerProps {
 	animateGradient?: boolean;
@@ -20,103 +20,100 @@ const United24Banner: React.FC<United24BannerProps> = ({
 }) => {
 	const [isVisible, setIsVisible] = useState(true);
 	const bannerRef = useRef<HTMLDivElement>(null);
-	const animationsRef = useRef<ReturnType<typeof animate>[]>([]);
+	// const animationsRef = useRef<ReturnType<typeof animate>[]>([]);
 
 	const handleClose = () => {
 		if (bannerRef.current) {
 			// Stop any existing animations
-			for (const animation of animationsRef.current) {
-				animation.pause();
-			}
+			// for (const animation of animationsRef.current) {
+			// 	animation.pause();
+			// }
 
 			// Create close animation
-			const animation = animate(bannerRef.current, {
-				duration: 500,
-				ease: "outQuad",
-				height: 0,
-				onComplete: () => {
-					setIsVisible(false);
-					if (onClose) {
-						onClose();
-					}
-				},
-				opacity: 0,
-				paddingBottom: 0,
-				paddingTop: 0,
-			});
+			// const animation = animate(bannerRef.current, {
+			// 	duration: 500,
+			// 	ease: "outQuad",
+			// 	height: 0,
+			// 	onComplete: () => {
+			// 		setIsVisible(false);
+			// 		if (onClose) {
+			// 			onClose();
+			// 		}
+			// 	},
+			// 	opacity: 0,
+			// 	paddingBottom: 0,
+			// 	paddingTop: 0,
+			// });
 
 			// Store the animation reference
-			animationsRef.current = [animation];
+			// animationsRef.current = [animation];
+
+			// Without animation, just close immediately
+			setIsVisible(false);
+			if (onClose) {
+				onClose();
+			}
 		}
 	};
 
-	useEffect(() => {
-		if (!isVisible || !bannerRef.current) return;
-
-		// Clear previous animations
-		for (const animation of animationsRef.current) {
-			animation.pause();
-		}
-
-		// Initialize new animations
-		const animations: ReturnType<typeof animate>[] = [];
-		const banner = bannerRef.current;
-
-		// Get elements within the banner
-		const contentElements = banner.querySelectorAll(".banner-content");
-		const logoElements = banner.querySelectorAll(".banner-logo");
-		const buttonElements = banner.querySelectorAll(".banner-button");
-
-		// Entrance animation for content
-		const contentAnimation = animate(contentElements, {
-			delay: (_, i) => i * 100, // Stagger effect
-			duration: 800,
-			ease: "outExpo",
-			opacity: [0, 1],
-			translateY: [20, 0],
-		});
-		animations.push(contentAnimation);
-
-		// Logo animation
-		const logoAnimation = animate(logoElements, {
-			duration: 1000,
-			ease: "outElastic(1, 0.5)",
-			opacity: [0, 1],
-			rotate: ["-15deg", "0deg"],
-			scale: [0.8, 1],
-		});
-		animations.push(logoAnimation);
-
-		// Button animation
-		const buttonAnimation = animate(buttonElements, {
-			delay: 100,
-			duration: 200,
-			ease: "outExpo",
-			opacity: [0, 0.9],
-		});
-		animations.push(buttonAnimation);
-
-		// Ukrainian flag color gradient animation
-		if (animateGradient) {
-			const gradientAnimation = animate(banner, {
-				backgroundPosition: ["100% 50%", "0% 50%", "100% 50%"],
-				duration: 45000,
-				ease: "linear",
-				loop: true,
-			});
-			animations.push(gradientAnimation);
-		}
-
-		// Store animations for cleanup
-		animationsRef.current = animations;
-
-		return () => {
-			// Clean up all animations when component unmounts
-			for (const anim of animations) {
-				anim.pause();
-			}
-		};
-	}, [isVisible, animateGradient]);
+	// useEffect(() => {
+	// if (!isVisible || !bannerRef.current) return;
+	// Clear previous animations
+	// for (const animation of animationsRef.current) {
+	// 	animation.pause();
+	// }
+	// Initialize new animations
+	// const animations: ReturnType<typeof animate>[] = [];
+	// const banner = bannerRef.current;
+	// Get elements within the banner
+	// const contentElements = banner.querySelectorAll(".banner-content");
+	// const logoElements = banner.querySelectorAll(".banner-logo");
+	// const buttonElements = banner.querySelectorAll(".banner-button");
+	// Entrance animation for content
+	// const contentAnimation = animate(contentElements, {
+	// 	delay: (_, i) => i * 100, // Stagger effect
+	// 	duration: 800,
+	// 	ease: "outExpo",
+	// 	opacity: [0, 1],
+	// 	translateY: [20, 0],
+	// });
+	// animations.push(contentAnimation);
+	// Logo animation
+	// const logoAnimation = animate(logoElements, {
+	// 	duration: 1000,
+	// 	ease: "outElastic(1, 0.5)",
+	// 	opacity: [0, 1],
+	// 	rotate: ["-15deg", "0deg"],
+	// 	scale: [0.8, 1],
+	// });
+	// animations.push(logoAnimation);
+	// Button animation
+	// const buttonAnimation = animate(buttonElements, {
+	// 	delay: 100,
+	// 	duration: 200,
+	// 	ease: "outExpo",
+	// 	opacity: [0, 0.9],
+	// });
+	// animations.push(buttonAnimation);
+	// Ukrainian flag color gradient animation
+	// if (animateGradient) {
+	// 	const gradientAnimation = animate(banner, {
+	// 		backgroundPosition: ["100% 50%", "0% 50%", "100% 50%"],
+	// 		duration: 45000,
+	// 		ease: "linear",
+	// 		loop: true,
+	// 	});
+	// 	animations.push(gradientAnimation);
+	// }
+	// Store animations for cleanup
+	// animationsRef.current = animations;
+	// return () => {
+	// 	// Clean up all animations when component unmounts
+	// 	for (const anim of animations) {
+	// 		anim.pause();
+	// 	}
+	// };
+	// }, [isVisible, animateGradient]);
 
 	if (!isVisible) return null;
 
